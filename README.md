@@ -1,6 +1,6 @@
 # causal-healer
 
-Causal graph self-healing — diagnose root cause, choose optimal recovery
+Causal graph self-healing — diagnose root cause, choose optimal recovery strategy
 
 Part of the [Cocapn fleet](https://github.com/Lucineer/the-fleet).
 
