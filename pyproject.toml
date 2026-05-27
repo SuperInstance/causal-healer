@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "causal-healer"
+version = "1.0.0"
+description = "Diagnose and repair broken causal chains in agent reasoning"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "SuperInstance" },
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["causal_healer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
